@@ -13,5 +13,6 @@
 
 ## Echo gRPC
 ![Демонстрация приложения](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnV6enIxcjBjeXk2NWFqcWxubzMyOTFhamtkeGtpYmpscmEzMHpnbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7rSH3yTiKd4OSjCCJf/giphy.gif)
+
 Это приложение является примером реализации gRPC в Go. Оно состоит из двух частей: сервера и клиента. Сервер принимает сообщения от клиента и отвечает на них. В процесе разработки использовались фреймворк gRPC для обмена данными между сервером и клиентом и Protocol Buffers для определения RPC сервисов и сообщений.
 Также использовались стандартные библиотеки Go:  net -  для работы с сетью,  log - для логирования и  context для работы с контекстом.
